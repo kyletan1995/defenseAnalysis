@@ -19,6 +19,9 @@ I have gained inspiration and ideas from the following projects:
 
 ## Files
 
+### Roadmap
+A very general, and very brief graphic description on my broad plans for this project. 
+
 ### Country Defensive Stats
 This file reports of the EDA of the dataset I will using to do this project. 
 It's a combined and rennamed dataframe that holds all defensive actions for and against each of the participating sample nations. 
