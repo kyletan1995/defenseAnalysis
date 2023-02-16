@@ -25,3 +25,18 @@ A very general, and very brief graphic description on my broad plans for this pr
 ### Country Defensive Stats
 This file reports of the EDA of the dataset I will using to do this project. 
 It's a combined and rennamed dataframe that holds all defensive actions for and against each of the participating sample nations. 
+
+### Country Defensive Stats Relative
+This file shows the relative measures of each stats. This is done by dividing the stats for by the stats against for each country. 
+The measures show a relative percentage of how much better the repsective country has done compared to their oppositions. 
+e.g. 1.5 means this country did 50% better than their oppositions. 
+
+### Country Defensive Stats with Average
+The average of the the countries are added in here for easy comparison. Average was exluded on other ones as it skewed the overall analysis of individual 
+country stats. 
+
+### Data Project Attempt 4.ipynb
+This file shows all the rough work done in Jupyter Notebook using Python. Most of the graphics visualizations and initial data analysis is done here. 
+
+### R Workspace.R
+This file shows all rough work done in R. Most of the more in-depth statistical analysis such the regression analysis is done here. 
