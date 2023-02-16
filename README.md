@@ -17,8 +17,8 @@ I have gained inspiration and ideas from the following projects:
 3. https://github.com/indrag49/football-analysis-project/blob/main/xG%20analysis.ipynb
 4. https://github.com/indrag49/football-analysis-project/blob/main/Linear%20Regression%20model%20on%20football%20data.ipynb
 
-##Files
+## Files
 
-###Country Defensive Stats
+### Country Defensive Stats
 This file reports of the EDA of the dataset I will using to do this project. 
 It's a combined and rennamed dataframe that holds all defensive actions for and against each of the participating sample nations. 
