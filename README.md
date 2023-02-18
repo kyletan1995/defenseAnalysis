@@ -22,9 +22,10 @@ I have gained inspiration and ideas from the following projects:
 ### Roadmap
 A very general, and very brief graphic description on my broad plans for this project. 
 
-### Country Defensive Stats
-This file reports of the EDA of the dataset I will using to do this project. 
-It's a combined and rennamed dataframe that holds all defensive actions for and against each of the participating sample nations. 
+### Report[WIP]
+The work in progress file of my written report. This will be updated as the project goes along.
+As of 2/18/2023 this includes - Abstract, Literature review, Methodologies. 
+Plan: add Discussion/Conclusion + further research recommendations. Performance analysis (I need to figure out the Rsquared issue first).
 
 ### firstIteration
 Files including firstIteration in their name are the datasets + rough work that's done to complete the first iteration of this project. 
