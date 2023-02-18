@@ -30,3 +30,9 @@ It's a combined and rennamed dataframe that holds all defensive actions for and 
 Files including firstIteration in their name are the datasets + rough work that's done to complete the first iteration of this project. 
 This includes solely the defensive stats of the countries vs their opponents. 
 
+### secondIteration
+Files in this folder and with the name secondIteration are the rough work + datasets done to complete the second portion of the project. 
+This includes looking at the relative stats of how each team performes against their opponents. 
+
+### thirdIteration
+Files in this fodler includes the rough work done in the regression analysis. 
