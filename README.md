@@ -29,11 +29,13 @@ Plan: add Discussion/Conclusion + further research recommendations. Performance 
 
 ### firstIteration
 Files including firstIteration in their name are the datasets + rough work that's done to complete the first iteration of this project. 
-This includes solely the defensive stats of the countries vs their opponents. 
+This includes solely the defensive stats of the countries vs their opponents. [Kept historically to track previous progress, due to feeback this is irrevelant.]
 
 ### secondIteration
 Files in this folder and with the name secondIteration are the rough work + datasets done to complete the second portion of the project. 
-This includes looking at the relative stats of how each team performes against their opponents. 
+This includes looking at the relative stats of how each team performes against their opponents. [Kept historically to track previous progress, due to feeback this is irrevelant.]
 
 ### thirdIteration
-Files in this fodler includes the rough work done in the regression analysis. 
+Files in this fodler includes the rough work done in the regression analysis.
+[Kept historically to track previous progress, due to feeback this is irrevelant.]
+
