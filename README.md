@@ -9,22 +9,24 @@ I am an amateur data enthusiast. With this project, I aim to practice and apply 
 ### Roadmap
 A very general, and very brief graphic description on my broad plans for this project. 
 
-### Report[WIP]
+### Report REVISED
 The work in progress file of my written report. This will be updated as the project goes along.
+This documents describes the project and all that goes in it. 
 As of 2/18/2023 this includes - Abstract, Literature review, Methodologies. 
-Plan: add Discussion/Conclusion + further research recommendations. Performance analysis (I need to figure out the Rsquared issue first).
+As of 3/1/2023 - previous report removed as it was not good enough. Uploaded new revised report.
 
-### firstIteration
-Files including firstIteration in their name are the datasets + rough work that's done to complete the first iteration of this project. 
-This includes solely the defensive stats of the countries vs their opponents. [Kept historically to track previous progress, due to feeback this is irrevelant.]
+### EDA files
+These are the EDA reports generated during the initial stages of the project. 
+- Initial NA Analysis - EDA on the output variable. This was used to look at the various betting odds variables and see if there's missing values, outliers and any other items to note. 
+- TeamAttr EDA - This is the report generated on the table in the database labelled 'team attributes'. This was used to determine the data types we're working with and any other standout items. 
+- catData EDA - This is the report and analysis on all the team attributes that are categorical. Any correlations, outliers, missing values, and items to note will be detected here. 
+- numData EDA - simlar to the catData report, this is the same but for the numerical data frame. 
 
-### secondIteration
-Files in this folder and with the name secondIteration are the rough work + datasets done to complete the second portion of the project. 
-This includes looking at the relative stats of how each team performes against their opponents. [Kept historically to track previous progress, due to feeback this is irrevelant.]
+### R Workspace
+This shows my code and rough work for all analysis that was done on R. 
 
-### thirdIteration
-Files in this fodler includes the rough work done in the regression analysis.
-[Kept historically to track previous progress, due to feeback this is irrevelant.]
+### TREVISED ATTEMPT.ipynb
+This is all the code and rough work for all analysis done on Python via Jupyter notebook. 
 
-### fourthIteration
-Most recent version with details from feedback included. 
+### database.sqlite
+This is the raw database that this project is based on. This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
