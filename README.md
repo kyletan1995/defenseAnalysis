@@ -29,4 +29,5 @@ This shows my code and rough work for all analysis that was done on R.
 This is all the code and rough work for all analysis done on Python via Jupyter notebook. 
 
 ### database.sqlite
-This is the raw database that this project is based on. This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
+This is the raw database that this project is based on. Due to size limitation (~300 MBs) I cannot upload this.
+This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
