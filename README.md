@@ -33,3 +33,6 @@ This is all the code and rough work for all analysis done on Python via Jupyter 
 ### database.sqlite
 This is the raw database that this project is based on. Due to size limitation (~300 MBs) I cannot upload this.
 This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
+- numData - the dataframe exported from Python of all numerical inputs and output variable avgOdds.
+- catData - the dataframe exported from Python that shows all cat inputs in their raw string form.
+- catDataConverted - the dataframe that shows the converted ranks of each input categorical variable. 1 represents a more defensive style, 3 on the other end of the spectrum represents a more offensive style. 
