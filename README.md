@@ -25,7 +25,7 @@ These are the EDA reports generated during the initial stages of the project.
 ### R Workspace
 This shows my code and rough work for all analysis that was done on R. 
 
-### TREVISED ATTEMPT.ipynb
+### REVISED ATTEMPT.ipynb
 This is all the code and rough work for all analysis done on Python via Jupyter notebook. 
 
 ### database.sqlite
