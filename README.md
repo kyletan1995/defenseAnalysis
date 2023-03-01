@@ -15,6 +15,8 @@ This documents describes the project and all that goes in it.
 As of 2/18/2023 this includes - Abstract, Literature review, Methodologies. 
 As of 3/1/2023 - previous report removed as it was not good enough. Uploaded new revised report.
 
+Literature review, abstract, and methodology is included here. 
+
 ### EDA files
 These are the EDA reports generated during the initial stages of the project. 
 - Initial NA Analysis - EDA on the output variable. This was used to look at the various betting odds variables and see if there's missing values, outliers and any other items to note. 
