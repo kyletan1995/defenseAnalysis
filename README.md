@@ -25,10 +25,10 @@ These are the EDA reports generated during the initial stages of the project.
 - numData EDA - simlar to the catData report, this is the same but for the numerical data frame. 
 
 ### R Workspace
-This shows my code and rough work for all analysis that was done on R. 
+This shows my code and rough work for all analysis that was done on R during the "literature review + data description" phase of the project.
 
 ### REVISED ATTEMPT.ipynb
-This is all the code and rough work for all analysis done on Python via Jupyter notebook. 
+This is all the code and rough work for all analysis done during the "literature review + data description" phase of the project.
 
 ### database.sqlite
 This is the raw database that this project is based on. Due to size limitation (~300 MBs) I cannot upload this.
