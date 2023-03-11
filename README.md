@@ -14,6 +14,10 @@ The work in progress file of my written report. This will be updated as the proj
 This documents describes the project and all that goes in it. 
 As of 2/18/2023 this includes - Abstract, Literature review, Methodologies. 
 As of 3/1/2023 - previous report removed as it was not good enough. Uploaded new revised report.
+As of 3/11/2023 - this is now outdated, please see Report Initial Results.docx.
+
+### Report Initial Results.docx
+The most recent iteration of the project report as of 3/11/2023.
 
 Literature review, abstract, and methodology is included here. 
 
@@ -29,6 +33,7 @@ This shows my code and rough work for all analysis that was done on R during the
 
 ### REVISED ATTEMPT.ipynb
 This is all the code and rough work for all analysis done during the "literature review + data description" phase of the project.
+This file shows the initial reading in and subsetting of the data. 
 
 ### database.sqlite
 This is the raw database that this project is based on. Due to size limitation (~300 MBs) I cannot upload this.
@@ -36,3 +41,15 @@ This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
 - numData - the dataframe exported from Python of all numerical inputs and output variable avgOdds.
 - catData - the dataframe exported from Python that shows all cat inputs in their raw string form.
 - catDataConverted - the dataframe that shows the converted ranks of each input categorical variable. 1 represents a more defensive style, 3 on the other end of the spectrum represents a more offensive style. 
+
+### Initial Results.ipynb
+This is all the code and rough work done for all the model building and analysis done in the "INITIAL RESULTS AND CODE" phase of the project.
+Recent as of 3/11/2023
+
+### RworkspaceII.R
+This is all the code and rough work done for all the model building and analysis done in the "INITIAL RESULTS AND CODE" phase of the project.
+Recent as of 3/11/2023
+
+### catDataNew.csv, combData.csv, numDataNew.csv, ordDataNew.csv
+The various dataframes generated during the experimenting and playing around with data. 
+
