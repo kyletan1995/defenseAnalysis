@@ -10,8 +10,7 @@ I am an amateur data enthusiast. With this project, I aim to practice and apply 
 This is all the code and rough work for all analysis done during the "LITERATURE REVIEW + DATA DESCRIPTION" phase of the project.
 This file also shows the initial reading in and subsetting of the data. 
 
-### Python Pt II.ipynb
-https://github.com/kyletan1995/defenseAnalysis/blob/main/Python%20Pt%20II.ipynb
+### [Python Pt II.ipynb](https://github.com/kyletan1995/defenseAnalysis/blob/main/Python%20Pt%20II.ipynb)
 This is all the code and rough work done for all the model building and analysis done in the "INITIAL RESULTS AND CODE" phase of the project.
 
 
