@@ -6,6 +6,11 @@ I am an amateur data enthusiast. With this project, I aim to practice and apply 
 
 ## Files
 
+### [database.sqlite](https://www.kaggle.com/datasets/hugomathien/soccer)
+This is the raw database that this project is based on. Due to size limitation (~300 MBs) I cannot upload this.
+This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
+
+
 ### [Python Pt I.ipynb](https://github.com/kyletan1995/defenseAnalysis/blob/main/Python%20Pt%20I.ipynb)
 This is all the code and rough work for all analysis done during the "LITERATURE REVIEW + DATA DESCRIPTION" phase of the project.
 This file also shows the initial reading in and subsetting of the data. 
