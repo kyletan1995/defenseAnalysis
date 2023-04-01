@@ -10,7 +10,6 @@ I am an amateur data enthusiast. With this project, I aim to practice and apply 
 This is the raw database that this project is based on. Due to size limitation (~300 MBs) I cannot upload this.
 This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
 
-
 ### [Python Pt I.ipynb](https://github.com/kyletan1995/defenseAnalysis/blob/main/Python%20Pt%20I.ipynb)
 This is all the code and rough work for all analysis done during the "LITERATURE REVIEW + DATA DESCRIPTION" phase of the project.
 This file also shows the initial reading in and subsetting of the data. 
@@ -18,6 +17,12 @@ This file also shows the initial reading in and subsetting of the data.
 ### [Python Pt II.ipynb](https://github.com/kyletan1995/defenseAnalysis/blob/main/Python%20Pt%20II.ipynb)
 This is all the code and rough work done for all the model building and analysis done in the "INITIAL RESULTS AND CODE" phase of the project.
 
+### EDA files
+These are the EDA reports generated during the initial stages of the project. 
+- [Initial NA Analysis](https://github.com/kyletan1995/defenseAnalysis/blob/main/Initial%20NA%20Analysis.html) - EDA on the output variable. This was used to look at the various betting odds variables and see if there's missing values, outliers and any other items to note. 
+- [TeamAttr EDA](https://github.com/kyletan1995/defenseAnalysis/blob/main/teamAttr%20EDA.html) - This is the report generated on the table in the database labelled 'team attributes'. This was used to determine the data types we're working with and any other standout items. 
+- [catData](https://github.com/kyletan1995/defenseAnalysis/blob/main/catData.html) - This is the report and analysis on all the team attributes that are categorical. Any correlations, outliers, missing values, and items to note will be detected here. 
+- [numData](https://github.com/kyletan1995/defenseAnalysis/blob/main/numData.html) - simlar to the catData report, this is the same but for the numerical data frame. 
 
 
 ### Roadmap
