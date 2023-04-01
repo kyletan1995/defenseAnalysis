@@ -43,3 +43,6 @@ These files are the full decision trees generated from the model. As mentioned i
 - [decision_tree non-defensive.log](https://github.com/kyletan1995/defenseAnalysis/blob/main/decistion_tree%20non-defensive.log) - Decision tree for non-defensive model. 
 - [Full Decision Tree Baseline.log](https://github.com/kyletan1995/defenseAnalysis/blob/main/Full%20Decision%20Tree%20Baseline.log) - Decision tree for the baseline model. 
 - [Full Deicision Tree Baseline.png](https://github.com/kyletan1995/defenseAnalysis/blob/main/Full%20Decision%20Tree%20Baseline.png) - Decision tree for the baseline model, in a graphical format. 
+
+### [Excel Visualization.xlsx](https://github.com/kyletan1995/defenseAnalysis/blob/main/Excel%20Visualizations.xlsx)
+This file shows the work to create the visualization on some of the graphics that are used in the report. 
