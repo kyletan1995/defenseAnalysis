@@ -4,6 +4,9 @@ My final project for TMU's data analytics program.
 ## Quick description:
 I am an amateur data enthusiast. With this project, I aim to practice and apply what I've learned in my short time at TMU's Data Analytics program.
 
+### [Roadmap](https://github.com/kyletan1995/defenseAnalysis/blob/main/roadmap.png)
+A very general, and very brief graphic description on my broad plans for this project. 
+
 ## Files
 
 ### [database.sqlite](https://www.kaggle.com/datasets/hugomathien/soccer)
@@ -34,5 +37,9 @@ These are the EDA reports generated during the initial stages of the project.
 - [catData](https://github.com/kyletan1995/defenseAnalysis/blob/main/catData.html) - This is the report and analysis on all the team attributes that are categorical. Any correlations, outliers, missing values, and items to note will be detected here. 
 - [numData](https://github.com/kyletan1995/defenseAnalysis/blob/main/numData.html) - simlar to the catData report, this is the same but for the numerical data frame. 
 
-### [Roadmap](https://github.com/kyletan1995/defenseAnalysis/blob/main/roadmap.png)
-A very general, and very brief graphic description on my broad plans for this project. 
+### Decision Tree files
+These files are the full decision trees generated from the model. As mentioned in the report, due to the sheer massive size of these decision trees. They're uplodaded separately should readers want to take a closer look. These decision trees are in text format, unless noted. 
+- [decision_tree Defense.log](https://github.com/kyletan1995/defenseAnalysis/blob/main/decistion_tree%20Defense.log) - Decision tree for defensive model.
+- [decision_tree non-defensive.log](https://github.com/kyletan1995/defenseAnalysis/blob/main/decistion_tree%20non-defensive.log) - Decision tree for non-defensive model. 
+- [Full Decision Tree Baseline.log](https://github.com/kyletan1995/defenseAnalysis/blob/main/Full%20Decision%20Tree%20Baseline.log) - Decision tree for the baseline model. 
+- [Full Deicision Tree Baseline.png](https://github.com/kyletan1995/defenseAnalysis/blob/main/Full%20Decision%20Tree%20Baseline.png) - Decision tree for the baseline model, in a graphical format. 
