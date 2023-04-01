@@ -17,6 +17,9 @@ This file also shows the initial reading in and subsetting of the data.
 ### [Python Pt II.ipynb](https://github.com/kyletan1995/defenseAnalysis/blob/main/Python%20Pt%20II.ipynb)
 This is all the code and rough work done for all the model building and analysis done in the "INITIAL RESULTS AND CODE" phase of the project.
 
+### [R Workspace](https://github.com/kyletan1995/defenseAnalysis/blob/main/Rworkspace.R)
+This shows my code and rough work for all analysis that was done on R during project. This includes outlier detection and removal, categorizing the output variables, and backward selection. 
+
 ### EDA files
 These are the EDA reports generated during the initial stages of the project. 
 - [Initial NA Analysis](https://github.com/kyletan1995/defenseAnalysis/blob/main/Initial%20NA%20Analysis.html) - EDA on the output variable. This was used to look at the various betting odds variables and see if there's missing values, outliers and any other items to note. 
@@ -30,12 +33,6 @@ A very general, and very brief graphic description on my broad plans for this pr
 
 
 
-### R Workspace
-This shows my code and rough work for all analysis that was done on R during the "literature review + data description" phase of the project.
-
-### REVISED ATTEMPT.ipynb
-This is all the code and rough work for all analysis done during the "literature review + data description" phase of the project.
-This file shows the initial reading in and subsetting of the data. 
 
 ### database.sqlite
 This is the raw database that this project is based on. Due to size limitation (~300 MBs) I cannot upload this.
@@ -44,9 +41,6 @@ This is downloaded from: https://www.kaggle.com/datasets/hugomathien/soccer
 - catData - the dataframe exported from Python that shows all cat inputs in their raw string form.
 - catDataConverted - the dataframe that shows the converted ranks of each input categorical variable. 1 represents a more defensive style, 3 on the other end of the spectrum represents a more offensive style. 
 
-### Initial Results.ipynb
-This is all the code and rough work done for all the model building and analysis done in the "INITIAL RESULTS AND CODE" phase of the project.
-Recent as of 3/11/2023
 
 ### RworkspaceII.R
 This is all the code and rough work done for all the model building and analysis done in the "INITIAL RESULTS AND CODE" phase of the project.
