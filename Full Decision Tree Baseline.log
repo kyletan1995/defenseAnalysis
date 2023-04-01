@@ -1,0 +1,1063 @@
+|--- chanceCreationShooting <= 65.50
+|   |--- defencePressure <= 48.50
+|   |   |--- buildUpPlayPassing <= 41.50
+|   |   |   |--- defenceAggression <= 61.50
+|   |   |   |   |--- buildUpPlaySpeed <= 45.50
+|   |   |   |   |   |--- defenceTeamWidth <= 53.50
+|   |   |   |   |   |   |--- defenceAggression <= 32.50
+|   |   |   |   |   |   |   |--- defenceAggression <= 31.00
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 32.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 57.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  57.50
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure <= 35.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure >  35.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  32.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- defenceAggression >  31.00
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- defenceAggression >  32.50
+|   |   |   |   |   |   |   |--- defenceAggression <= 34.00
+|   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |--- defenceAggression >  34.00
+|   |   |   |   |   |   |   |   |--- defencePressure <= 40.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 39.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 25.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  25.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  39.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 44.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  44.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- defencePressure >  40.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 52.00
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 43.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  43.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  52.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 35.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  35.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |--- defenceTeamWidth >  53.50
+|   |   |   |   |   |   |--- defencePressure <= 45.50
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 54.50
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 51.00
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  51.00
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  54.50
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 62.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 42.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 32.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  32.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  42.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  62.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 37.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  37.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- defencePressure >  45.50
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 63.50
+|   |   |   |   |   |   |   |   |--- defencePressure <= 47.00
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 39.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  39.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- defencePressure >  47.00
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 61.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  61.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  63.50
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 26.00
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  26.00
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 67.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  67.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |--- buildUpPlaySpeed >  45.50
+|   |   |   |   |   |--- defenceAggression <= 41.50
+|   |   |   |   |   |   |--- chanceCreationShooting <= 52.00
+|   |   |   |   |   |   |   |--- chanceCreationCrossing <= 39.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationCrossing >  39.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- chanceCreationShooting >  52.00
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- defenceAggression >  41.50
+|   |   |   |   |   |   |--- buildUpPlayPassing <= 29.50
+|   |   |   |   |   |   |   |--- chanceCreationCrossing <= 42.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationCrossing >  42.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- buildUpPlayPassing >  29.50
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 46.50
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 49.00
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 65.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 63.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  63.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  65.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  49.00
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 43.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 60.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  60.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  43.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 51.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  51.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  46.50
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 47.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 61.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 63.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  63.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  61.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 50.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  50.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  47.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 47.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 64.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  64.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  47.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |--- defenceAggression >  61.50
+|   |   |   |   |--- chanceCreationCrossing <= 64.50
+|   |   |   |   |   |--- defenceAggression <= 68.00
+|   |   |   |   |   |   |--- buildUpPlayPassing <= 33.00
+|   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |--- buildUpPlayPassing >  33.00
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 38.50
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 48.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  48.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  38.50
+|   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |--- defenceAggression >  68.00
+|   |   |   |   |   |   |--- buildUpPlaySpeed <= 52.50
+|   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- buildUpPlaySpeed >  52.50
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 57.50
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  57.50
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |--- chanceCreationCrossing >  64.50
+|   |   |   |   |   |--- buildUpPlayPassing <= 32.50
+|   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |--- buildUpPlayPassing >  32.50
+|   |   |   |   |   |   |--- class: Likely win
+|   |   |--- buildUpPlayPassing >  41.50
+|   |   |   |--- chanceCreationCrossing <= 26.50
+|   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |--- chanceCreationCrossing >  26.50
+|   |   |   |   |--- chanceCreationCrossing <= 76.50
+|   |   |   |   |   |--- buildUpPlayPassing <= 54.50
+|   |   |   |   |   |   |--- chanceCreationCrossing <= 68.50
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 61.00
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 53.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 58.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 54.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  54.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  58.50
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 59.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  59.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  53.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 57.50
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure <= 47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure >  47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  57.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 61.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  61.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  61.00
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 48.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 61.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 45.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  45.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  61.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 63.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  63.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  48.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 37.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  37.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 50.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  50.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- chanceCreationCrossing >  68.50
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 67.00
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 53.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 63.50
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 51.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  51.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  63.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  53.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed >  67.00
+|   |   |   |   |   |   |   |   |--- defencePressure <= 42.00
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defencePressure >  42.00
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- buildUpPlayPassing >  54.50
+|   |   |   |   |   |   |--- chanceCreationShooting <= 38.50
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 54.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 40.00
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  40.00
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 35.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 67.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  67.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  35.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 52.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  52.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  54.50
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 57.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 54.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 58.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  58.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  54.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  57.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 63.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  63.50
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 63.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  63.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- chanceCreationShooting >  38.50
+|   |   |   |   |   |   |   |--- chanceCreationCrossing <= 67.50
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 38.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 32.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  32.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 60.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  60.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  38.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 48.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 40.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  40.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  48.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 62.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  62.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- chanceCreationCrossing >  67.50
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 52.00
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 53.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 47.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  47.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  53.00
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 57.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  57.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  52.00
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 62.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  62.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 69.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  69.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- chanceCreationCrossing >  76.50
+|   |   |   |   |   |--- defencePressure <= 42.00
+|   |   |   |   |   |   |--- chanceCreationCrossing <= 77.50
+|   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- chanceCreationCrossing >  77.50
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 61.00
+|   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  61.00
+|   |   |   |   |   |   |   |   |--- defenceAggression <= 54.50
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- defenceAggression >  54.50
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |--- defencePressure >  42.00
+|   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |--- defencePressure >  48.50
+|   |   |--- chanceCreationPassing <= 43.50
+|   |   |   |--- chanceCreationCrossing <= 39.00
+|   |   |   |   |--- chanceCreationShooting <= 59.00
+|   |   |   |   |   |--- buildUpPlayPassing <= 42.00
+|   |   |   |   |   |   |--- chanceCreationPassing <= 39.00
+|   |   |   |   |   |   |   |--- defenceAggression <= 61.00
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 27.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  27.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 35.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  35.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- defenceAggression >  61.00
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 65.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  65.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- chanceCreationPassing >  39.00
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- buildUpPlayPassing >  42.00
+|   |   |   |   |   |   |--- defenceTeamWidth <= 57.50
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- defenceTeamWidth >  57.50
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 44.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  44.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |--- chanceCreationShooting >  59.00
+|   |   |   |   |   |--- chanceCreationShooting <= 64.00
+|   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- chanceCreationShooting >  64.00
+|   |   |   |   |   |   |--- class: Likely win
+|   |   |   |--- chanceCreationCrossing >  39.00
+|   |   |   |   |--- defenceTeamWidth <= 51.00
+|   |   |   |   |   |--- chanceCreationCrossing <= 46.00
+|   |   |   |   |   |   |--- buildUpPlaySpeed <= 49.00
+|   |   |   |   |   |   |   |--- chanceCreationShooting <= 49.50
+|   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- chanceCreationShooting >  49.50
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- buildUpPlaySpeed >  49.00
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 54.50
+|   |   |   |   |   |   |   |   |--- defencePressure <= 52.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defencePressure >  52.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  54.50
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |--- chanceCreationCrossing >  46.00
+|   |   |   |   |   |   |--- defenceTeamWidth <= 44.50
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 43.00
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed >  43.00
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 60.00
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 40.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  40.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  60.00
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- defenceTeamWidth >  44.50
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 49.50
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 63.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 48.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  48.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 63.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  63.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  63.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 69.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  69.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  49.50
+|   |   |   |   |   |   |   |   |--- defencePressure <= 52.00
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- defencePressure >  52.00
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 57.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  57.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |--- defenceTeamWidth >  51.00
+|   |   |   |   |   |--- defenceTeamWidth <= 53.50
+|   |   |   |   |   |   |--- buildUpPlayPassing <= 38.00
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 52.50
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 42.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  42.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 49.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  49.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  52.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- buildUpPlayPassing >  38.00
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- defenceTeamWidth >  53.50
+|   |   |   |   |   |   |--- chanceCreationShooting <= 52.50
+|   |   |   |   |   |   |   |--- chanceCreationCrossing <= 57.00
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 40.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 65.00
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 54.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  54.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  65.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  40.50
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |--- chanceCreationCrossing >  57.00
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- chanceCreationShooting >  52.50
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 48.00
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 63.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 50.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  50.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 39.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  39.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  63.50
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 68.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 40.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  40.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  68.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  48.00
+|   |   |   |   |   |   |   |   |--- defencePressure <= 65.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defencePressure >  65.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |--- chanceCreationPassing >  43.50
+|   |   |   |--- defenceTeamWidth <= 56.50
+|   |   |   |   |--- chanceCreationCrossing <= 43.00
+|   |   |   |   |   |--- defenceTeamWidth <= 44.50
+|   |   |   |   |   |   |--- defenceTeamWidth <= 42.00
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 51.50
+|   |   |   |   |   |   |   |   |--- defenceAggression <= 61.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- defenceAggression >  61.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  51.50
+|   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |--- defenceTeamWidth >  42.00
+|   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |--- defenceTeamWidth >  44.50
+|   |   |   |   |   |   |--- chanceCreationShooting <= 40.50
+|   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- chanceCreationShooting >  40.50
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 63.00
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 56.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 51.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  51.00
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 61.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  61.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  56.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 27.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  27.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 32.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  32.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  63.00
+|   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |--- chanceCreationCrossing >  43.00
+|   |   |   |   |   |--- defenceAggression <= 66.50
+|   |   |   |   |   |   |--- defenceAggression <= 40.00
+|   |   |   |   |   |   |   |--- chanceCreationShooting <= 54.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 58.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  58.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 64.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  64.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 68.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  68.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationShooting >  54.50
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 53.00
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  53.00
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 52.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  52.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |--- defenceAggression >  40.00
+|   |   |   |   |   |   |   |--- defencePressure <= 50.50
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 45.50
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 53.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 36.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  36.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  53.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  45.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 51.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  51.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 50.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  50.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- defencePressure >  50.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 74.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 45.50
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 41.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  41.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  45.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 54.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  54.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  74.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 78.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  78.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- defenceAggression >  66.50
+|   |   |   |   |   |   |--- defencePressure <= 57.00
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 57.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  57.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- defencePressure >  57.00
+|   |   |   |   |   |   |   |--- chanceCreationCrossing <= 53.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 48.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  48.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationCrossing >  53.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |--- defenceTeamWidth >  56.50
+|   |   |   |   |--- buildUpPlayPassing <= 63.50
+|   |   |   |   |   |--- chanceCreationCrossing <= 41.50
+|   |   |   |   |   |   |--- chanceCreationShooting <= 60.00
+|   |   |   |   |   |   |   |--- chanceCreationShooting <= 51.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationShooting >  51.50
+|   |   |   |   |   |   |   |   |--- defenceAggression <= 47.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- defenceAggression >  47.00
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 66.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  66.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |--- chanceCreationShooting >  60.00
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- chanceCreationCrossing >  41.50
+|   |   |   |   |   |   |--- chanceCreationShooting <= 52.50
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 54.50
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 67.50
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 58.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  58.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 46.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  46.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  67.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 51.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 54.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  54.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  51.00
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 50.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  50.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  54.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 61.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  61.50
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |--- chanceCreationShooting >  52.50
+|   |   |   |   |   |   |   |--- chanceCreationCrossing <= 71.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 45.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 56.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 56.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  56.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  56.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 44.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  44.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  45.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 53.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 59.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  59.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  53.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 60.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  60.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- chanceCreationCrossing >  71.50
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 54.00
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  54.00
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |--- buildUpPlayPassing >  63.50
+|   |   |   |   |   |--- chanceCreationShooting <= 46.00
+|   |   |   |   |   |   |--- chanceCreationCrossing <= 62.00
+|   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |--- chanceCreationCrossing >  62.00
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 59.50
+|   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  59.50
+|   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |--- chanceCreationShooting >  46.00
+|   |   |   |   |   |   |--- chanceCreationShooting <= 59.00
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 54.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 45.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  45.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 70.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  70.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed >  54.50
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 64.00
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 71.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  71.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  64.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |--- chanceCreationShooting >  59.00
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 67.50
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 62.50
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  62.50
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  67.50
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 62.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  62.50
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 67.50
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 65.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  65.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  67.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|--- chanceCreationShooting >  65.50
+|   |--- chanceCreationPassing <= 57.50
+|   |   |--- chanceCreationCrossing <= 53.50
+|   |   |   |--- defenceTeamWidth <= 59.50
+|   |   |   |   |--- defenceAggression <= 66.50
+|   |   |   |   |   |--- buildUpPlaySpeed <= 65.50
+|   |   |   |   |   |   |--- defenceTeamWidth <= 52.50
+|   |   |   |   |   |   |   |--- defenceAggression <= 32.00
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 32.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  32.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 37.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  37.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |--- defenceAggression >  32.00
+|   |   |   |   |   |   |   |   |--- defenceAggression <= 61.00
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 53.50
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure <= 44.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure >  44.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  53.50
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 66.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  66.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- defenceAggression >  61.00
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |--- defenceTeamWidth >  52.50
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 54.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  54.50
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 43.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 41.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  41.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 72.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  72.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  43.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 69.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 51.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  51.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  69.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 35.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  35.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |--- buildUpPlaySpeed >  65.50
+|   |   |   |   |   |   |--- buildUpPlayPassing <= 63.00
+|   |   |   |   |   |   |   |--- buildUpPlayPassing <= 51.50
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 69.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  69.50
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- buildUpPlayPassing >  51.50
+|   |   |   |   |   |   |   |   |--- defencePressure <= 36.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- defencePressure >  36.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- buildUpPlayPassing >  63.00
+|   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |--- defenceAggression >  66.50
+|   |   |   |   |   |--- chanceCreationShooting <= 71.50
+|   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- chanceCreationShooting >  71.50
+|   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |--- defenceTeamWidth >  59.50
+|   |   |   |   |--- defencePressure <= 40.00
+|   |   |   |   |   |--- defenceTeamWidth <= 62.50
+|   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- defenceTeamWidth >  62.50
+|   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |--- defencePressure >  40.00
+|   |   |   |   |   |--- buildUpPlaySpeed <= 63.50
+|   |   |   |   |   |   |--- chanceCreationCrossing <= 37.50
+|   |   |   |   |   |   |   |--- defencePressure <= 43.00
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- defencePressure >  43.00
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 42.50
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  42.50
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |--- chanceCreationCrossing >  37.50
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- buildUpPlaySpeed >  63.50
+|   |   |   |   |   |   |--- defenceTeamWidth <= 67.50
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- defenceTeamWidth >  67.50
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |--- chanceCreationCrossing >  53.50
+|   |   |   |--- defenceAggression <= 67.50
+|   |   |   |   |--- chanceCreationPassing <= 40.50
+|   |   |   |   |   |--- chanceCreationPassing <= 32.50
+|   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |--- chanceCreationPassing >  32.50
+|   |   |   |   |   |   |--- buildUpPlayPassing <= 37.50
+|   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |--- buildUpPlayPassing >  37.50
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 41.00
+|   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  41.00
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 63.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  63.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |--- chanceCreationPassing >  40.50
+|   |   |   |   |   |--- chanceCreationShooting <= 66.50
+|   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |--- chanceCreationShooting >  66.50
+|   |   |   |   |   |   |--- chanceCreationPassing <= 51.50
+|   |   |   |   |   |   |   |--- defencePressure <= 38.50
+|   |   |   |   |   |   |   |   |--- defencePressure <= 34.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- defencePressure >  34.00
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- defencePressure >  38.50
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing <= 42.00
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 47.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 59.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  59.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  47.50
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure <= 39.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure >  39.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- buildUpPlayPassing >  42.00
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 61.50
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure <= 56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure >  56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  61.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |--- chanceCreationPassing >  51.50
+|   |   |   |   |   |   |   |--- chanceCreationShooting <= 69.00
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 50.50
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  50.50
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |--- chanceCreationShooting >  69.00
+|   |   |   |   |   |   |   |   |--- defencePressure <= 57.00
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 37.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  37.50
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 50.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  50.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defencePressure >  57.00
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |--- defenceAggression >  67.50
+|   |   |   |   |--- defenceTeamWidth <= 52.50
+|   |   |   |   |   |--- class: Likely win
+|   |   |   |   |--- defenceTeamWidth >  52.50
+|   |   |   |   |   |--- defenceAggression <= 69.00
+|   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |--- defenceAggression >  69.00
+|   |   |   |   |   |   |--- defenceTeamWidth <= 60.00
+|   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- defenceTeamWidth >  60.00
+|   |   |   |   |   |   |   |--- defenceTeamWidth <= 67.50
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- defenceTeamWidth >  67.50
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |--- chanceCreationPassing >  57.50
+|   |   |--- buildUpPlayPassing <= 68.50
+|   |   |   |--- buildUpPlaySpeed <= 66.00
+|   |   |   |   |--- defenceTeamWidth <= 62.50
+|   |   |   |   |   |--- chanceCreationPassing <= 67.50
+|   |   |   |   |   |   |--- buildUpPlaySpeed <= 64.50
+|   |   |   |   |   |   |   |--- chanceCreationShooting <= 67.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationShooting >  67.50
+|   |   |   |   |   |   |   |   |--- defencePressure <= 57.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 63.00
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 54.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  54.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  63.00
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 51.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  51.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defencePressure >  57.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 52.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 59.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  59.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  52.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 72.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  72.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- buildUpPlaySpeed >  64.50
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- chanceCreationPassing >  67.50
+|   |   |   |   |   |   |--- defencePressure <= 67.00
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 43.00
+|   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed >  43.00
+|   |   |   |   |   |   |   |   |--- defencePressure <= 53.00
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 68.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- chanceCreationShooting >  68.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defencePressure >  53.00
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 54.50
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  54.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- defencePressure >  67.00
+|   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |--- defenceTeamWidth >  62.50
+|   |   |   |   |   |--- defenceAggression <= 52.00
+|   |   |   |   |   |   |--- defenceAggression <= 44.00
+|   |   |   |   |   |   |   |--- defencePressure <= 66.00
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- defencePressure >  66.00
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 66.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  66.50
+|   |   |   |   |   |   |   |   |   |--- defenceAggression <= 36.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defenceAggression >  36.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- defenceAggression >  44.00
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 57.50
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting <= 70.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationShooting >  70.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed >  57.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- defenceAggression >  52.00
+|   |   |   |   |   |   |--- chanceCreationPassing <= 62.50
+|   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |--- chanceCreationPassing >  62.50
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 70.50
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 42.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- buildUpPlaySpeed >  42.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 67.50
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure <= 60.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure >  60.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  67.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  70.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |--- buildUpPlaySpeed >  66.00
+|   |   |   |   |--- defenceTeamWidth <= 51.00
+|   |   |   |   |   |--- defenceAggression <= 67.00
+|   |   |   |   |   |   |--- chanceCreationPassing <= 73.50
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed <= 69.00
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 69.50
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 29.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  29.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- chanceCreationPassing >  69.50
+|   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |--- buildUpPlaySpeed >  69.00
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- chanceCreationPassing >  73.50
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |--- defenceAggression >  67.00
+|   |   |   |   |   |   |--- chanceCreationShooting <= 73.00
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- chanceCreationShooting >  73.00
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |--- defenceTeamWidth >  51.00
+|   |   |   |   |   |--- defencePressure <= 57.50
+|   |   |   |   |   |   |--- defencePressure <= 54.50
+|   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |--- defencePressure >  54.50
+|   |   |   |   |   |   |   |--- chanceCreationShooting <= 68.50
+|   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |--- chanceCreationShooting >  68.50
+|   |   |   |   |   |   |   |   |--- defenceAggression <= 64.00
+|   |   |   |   |   |   |   |   |   |--- defencePressure <= 56.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |   |--- defencePressure >  56.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defenceAggression >  64.00
+|   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |--- defencePressure >  57.50
+|   |   |   |   |   |   |--- chanceCreationCrossing <= 66.00
+|   |   |   |   |   |   |   |--- chanceCreationPassing <= 69.50
+|   |   |   |   |   |   |   |   |--- defencePressure <= 67.50
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing <= 67.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |   |--- chanceCreationPassing >  67.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |   |   |--- defencePressure >  67.50
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- chanceCreationPassing >  69.50
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing <= 62.50
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 65.00
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression <= 47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |   |   |   |--- defenceAggression >  47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  65.00
+|   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |--- chanceCreationCrossing >  62.50
+|   |   |   |   |   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |   |   |--- chanceCreationCrossing >  66.00
+|   |   |   |   |   |   |   |--- defencePressure <= 67.50
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 67.50
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth <= 64.50
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure <= 62.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |   |--- defencePressure >  62.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Likely win
+|   |   |   |   |   |   |   |   |   |--- defenceTeamWidth >  64.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |   |   |   |   |   |   |--- defenceTeamWidth >  67.50
+|   |   |   |   |   |   |   |   |   |--- class: Unlikely win
+|   |   |   |   |   |   |   |--- defencePressure >  67.50
+|   |   |   |   |   |   |   |   |--- class: Almost Guaranteed Win
+|   |   |--- buildUpPlayPassing >  68.50
+|   |   |   |--- defenceAggression <= 65.00
+|   |   |   |   |--- defenceAggression <= 57.50
+|   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |--- defenceAggression >  57.50
+|   |   |   |   |   |--- class: Likley loss
+|   |   |   |--- defenceAggression >  65.00
+|   |   |   |   |--- buildUpPlaySpeed <= 67.50
+|   |   |   |   |   |--- class: Likley loss
+|   |   |   |   |--- buildUpPlaySpeed >  67.50
+|   |   |   |   |   |--- class: Unlikely win
