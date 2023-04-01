@@ -4,8 +4,8 @@ My final project for TMU's data analytics program.
 ## Quick description:
 I am an amateur data enthusiast. With this project, I aim to practice and apply what I've learned in my short time at TMU's Data Analytics program.
 
-### [Roadmap](https://github.com/kyletan1995/defenseAnalysis/blob/main/roadmap.png)
-A very general, and very brief graphic description on my broad plans for this project. 
+### [Report Final Results.pdf](https://github.com/kyletan1995/defenseAnalysis/blob/main/Report%20Final%20Results.pdf)
+The report that presents an abstract, literature review, data analysis, methdology, results, and future recommendations. 
 
 ## Files
 
@@ -46,3 +46,6 @@ These files are the full decision trees generated from the model. As mentioned i
 
 ### [Excel Visualization.xlsx](https://github.com/kyletan1995/defenseAnalysis/blob/main/Excel%20Visualizations.xlsx)
 This file shows the work to create the visualization on some of the graphics that are used in the report. 
+
+### [Roadmap](https://github.com/kyletan1995/defenseAnalysis/blob/main/roadmap.png)
+A very general, and very brief graphic description on my broad plans for this project. 
