@@ -49,3 +49,6 @@ This file shows the work to create the visualization on some of the graphics tha
 
 ### [Roadmap](https://github.com/kyletan1995/defenseAnalysis/blob/main/roadmap.png)
 A very general, and very brief graphic description on my broad plans for this project. 
+
+### [Ryerson Powerpoint template.pptx](https://github.com/kyletan1995/defenseAnalysis/blob/main/Ryerson%20Powerpoint%20template.pptx)
+The slide decks for the presentation. 
